@@ -4,6 +4,7 @@ import {
   BrainCircuit, TrendingUp, CheckCircle2, Lock, 
   Link
 } from 'lucide-react';
+import TopElement from '../Components/Globe';
 
 
 
@@ -42,7 +43,7 @@ const LandingPage = ({onGetStarted}) => {
       {/* ----------------------------------------------------
           HERO SECTION
       ----------------------------------------------------- */}
-
+      <TopElement></TopElement>
       <div className="relative pt-32 pb-20 lg:pt-48 lg:pb-32">
 
         {/* Glowing Background Orbs */}
